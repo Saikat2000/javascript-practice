@@ -9,7 +9,15 @@
 <body>
     <script>
         let number= parseInt(prompt("Enter any integer"));
-        console.log("You entered " + number);
+        
+        for(let i=1; i<=number; i++){
+            if(i%3==0){
+                console.log("Fizz");
+            }
+            else{
+                console.log(i);
+            }
+        }
     </script>
 </body>
 </html>
